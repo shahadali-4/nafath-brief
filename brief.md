@@ -30,5 +30,6 @@ Under Oman's Personal Data Protection Law (Royal Decree 6/2022), the authority m
 
 Resource: Oman Ministry of Transport, Communications and Information Technology - Personal Data Protection Law Overview - https://www.mtcit.gov.om
 ## Misconception in My Track
-
+A common misconception is that any multi-factor authentication (MFA) method, such as SMS OTP or mobile authenticator apps, provides complete protection against phishing attacks. In reality, attackers use adversary-in-the-middle (AiTM) proxy frameworks to intercept traditional OTP codes in real time. True phishing resistance requires cryptographic domain binding offered by FIDO2/WebAuthn hardware keys or passkeys, which mathematically bind the authentication response to the legitimate website domain name.
 ## Open Question
+I would verify how the authority handles fallback authentication mechanisms for citizens who do not possess FIDO2 hardware keys or biometric-capable smartphones.
