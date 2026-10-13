@@ -1,4 +1,6 @@
 Version: NAFATH-V1
+
+
 Track: Cybersecurity
 
 ## Overview
@@ -16,11 +18,17 @@ Android runtime permissions restrict app access to sensitive data and hardware a
 
 Resource: Android Developer Guide - Request runtime permissions - https://developer.android.com/training/permissions/requesting
 ## Networking
+DNS over HTTPS (DoH) encrypts Domain Name System queries via HTTPS/TLS. It protects user DNS lookup privacy and prevents eavesdropping or spoofing by local network observers. However, DoH does not protect destination IP addresses, traffic metadata, or content inspected after connection establishment.
 
+Resource: RFC 8484 - DNS Queries over HTTPS (DoH) - https://www.rfc-editor.org/rfc/rfc8484
 ## Cybersecurity
+Phishing-resistant authentication binds the authentication process directly to the specific origin domain, preventing credential interception by proxy sites. FIDO2/WebAuthn hardware security keys and passkeys qualify as phishing-resistant. SMS codes, voice calls, email links, and standard OTP authenticator apps do not qualify.
 
+Resource: CISA - Phishing-Resistant Multi-Factor Authentication Fact Sheet - https://www.cisa.gov/resources-tools/resources/phishing-resistant-system-guide
 ## Data
+Under Oman's Personal Data Protection Law (Royal Decree 6/2022), the authority must obtain explicit consent, collect minimal necessary data, maintain confidentiality, implement robust security controls, provide citizen access rights, notify authorities of breaches, and restrict unauthorized data transfers.
 
+Resource: Oman Ministry of Transport, Communications and Information Technology - Personal Data Protection Law Overview - https://www.mtcit.gov.om
 ## Misconception in My Track
 
 ## Open Question
